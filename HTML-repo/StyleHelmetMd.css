@@ -1,0 +1,251 @@
+/* this is the css style for body*/
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-image: url(israel-palacio-IprD0z0zqss-unsplash.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: sans-serif;
+	transition: all 3s ease-in-out;
+
+}
+/* this is the css style for contact-title*/
+.contact-title{
+	margin: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+/* this is the css style for contact title and h1 */
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px
+}
+/* this is the css style for contact title and h2 */
+.contact-title h2{
+	font-size: 16px;
+
+}
+/* this is the css style for form */
+.form{
+	margin-top: 50px;
+	transition: all 2s ease-in-out;
+
+}
+/* this is the css style for form control */
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+
+
+}
+/* this is the css style for from submit*/
+form .submit{
+	background-color: #ff5722;
+	border-color: transparent;
+	color:#fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px
+}
+/* this is the css style for form submit hover */
+form .submit:hover
+{
+	background-color: #f44336;
+	cursor: pointer;
+}
+/* add a background color to top navigation*/
+.toggle-bar{
+	background-color: transparent;
+	overflow: hidden;
+}
+/* Style the links inside the navigation bar*/
+.toggle-bar a{
+	float: left;
+	width: 120px;
+	color:#f2f2f2;
+	margin: 0;
+	text-align: center;
+	padding: 8px 8px;
+	text-decoration: none;
+	font-size: 17px;
+	color: orange;
+
+}
+/* change the color of link on hover*/
+.toggle-bar a:hover{
+	background-color: #4CAF50;
+	color: black;
+}
+/*add a color to the active/current link*/
+.toggle-bar a.active{
+	background-color: #6aa394;
+	color:  white;
+}
+/* this is the css style for li*/
+li {
+	display: inline-block;
+}
+/* this is the css style for blog head */
+.blog-head{
+	padding: 30px;
+	font-size: 40px
+	text-align:center;
+	background-color: transparent;
+	color: #add9b6;
+}
+/* this is the css style for left column */
+.left-colum{
+	float: left;
+	width: 75%;
+}
+/* this is the css style for img on imgs */
+.imgs img{
+	background-color: #aaa;
+	padding-left:  20px
+	background-size:200px 200px;
+}
+/* this is the css style for card*/
+.card{
+	background-image: url(digital.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 40px 30px;
+	margin-top:20px;
+	color: #eeeeee;
+	border-style: none;
+	outline: none;	
+	
+}
+/* this is the css style for imgs */
+.Imgs{
+	width: 500%
+	margin: 100px auto;
+	left: 0;
+	background: url(helmets (1).jpg);
+	transition: left 20s;
+	animation:slide 20s infinite;
+
+}
+/* this is the css style for foot */
+.foot{
+	position: relative;
+	bottom: 0px;
+	height: 150px;
+	width: 100%;
+	padding: 200px auto;
+	margin-bottom: 0px;
+	background-image: url(footer-background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+/* this is the css style for h1*/
+h1{
+	color: #add9b6;
+}
+/* this is the css style for p*/
+p {
+	color: #add9b6;
+}
+/* this is the css style for h2*/
+h2{
+	color: #add9b6;
+
+}
+/* this is the css style for ProductPic*/
+.ProductPic{
+	background-image: url(cool.jpg)
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 700px 500px;
+	background-color: #eee;
+	background-position: center;
+	margin: 10px
+	left: 10px;
+	height: 100px;
+	width: 520px;
+	position: relative;
+	top: 1000px
+	left:20px;
+	align-items: left
+
+}
+/* this is the css style for productpic1*/
+.ProductPic1{
+	position:absolute;
+	top: 4px;
+	left: 70px
+	
+}
+/* this is the css style for productpic2*/
+.ProductPic2{
+	position: absolute;
+	top: 4px;
+	left: 440px;
+
+}
+/* this is the css style for productpic3*/
+.ProductPic3{
+	position: absolute;
+	top: 4px;
+	left: 800px;
+}
+/* this is the css style for productpic4*/
+.ProductPic4{
+	position: absolute;
+	top: 4px;
+	left: 1200px
+}
+/* this is the css style for productpic5*/
+.ProductPic5{
+	position: absolute;
+	top: 400px;
+	left: 800px
+}
+/* this is the css style for productpic6*/
+.ProductPic6{
+	position: absolute;
+	top: 400px;
+	left: 1200px
+}
+/* this is the css style for productpic7*/
+.ProductPic7{
+	position: absolute;
+	top: 800px;
+	left: 800px
+}
+/* this is the css style for productpic8 */
+.ProductPic8{
+	position: absolute;
+	top: 800px;
+	left: 1150px;
+}
+/* this is the css style for submit */
+.submit{
+	background-color: #ff5722;
+	border-color: transparent;
+	color:#fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	width: 300px;
+	margin-top: 10px
+}
+/* this is the css style for submit hover */
+.submit:hover
+{
+	background-color: #f44336;
+	cursor: pointer;
+}
